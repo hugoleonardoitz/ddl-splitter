@@ -33,8 +33,8 @@ Siga os passos abaixo para configurar e executar o projeto em seu ambiente local
 
 1.  **Clone o Repositório:**
     ```sh
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
+    git clone https://github.com/hugoleonardoitz/ddl-splitter.git
+    cd ddl-splitter
     ```
 
 2.  **Estrutura de Diretórios:** O script requer uma estrutura de pastas específica para funcionar. Crie uma pasta chamada `Input` na raiz do projeto.
