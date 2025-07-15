@@ -1,0 +1,44 @@
+# Arquivo .gitignore para o projeto Divisor de DDL
+
+# Diretórios de Entrada e Saída
+# Ignora as pastas que contêm os arquivos de entrada e saída do script.
+# É uma boa prática manter os dados de execução fora do controle de versão.
+/Input/
+/Output/
+
+# Arquivos de Cache e Bytecode do Python
+# Ignora os arquivos de cache gerados pelo interpretador Python.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes Virtuais
+# Ignora pastas de ambientes virtuais comuns para evitar versionar
+# bibliotecas e pacotes inteiros.
+.venv/
+venv/
+env/
+ENV/
+.env/
+.env.*
+!/.env.example
+
+# Arquivos de configuração de IDEs e Editores
+# Ignora arquivos específicos de configuração de ambientes de desenvolvimento.
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de Sistema Operacional
+# Ignora arquivos de metadados gerados por sistemas operacionais.
+.DS_Store
+Thumbs.db
+
+# Arquivos de Log e Build
+# Ignora arquivos de log e diretórios de build que podem ser gerados.
+*.log
+build/
+dist/
+*.egg-info/
